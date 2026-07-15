@@ -1,113 +1,52 @@
-# 👕 StyleHub - Clothing Store
+# StyleMuse - Fashion Wishlist Store
 
-A modern, responsive e-commerce clothing storefront that allows users to browse products, manage wishlists, and merge multiple wishlists into a single collection.
+A luxury minimalist e-commerce wishlist web application built with vanilla HTML, CSS, and JavaScript.
 
-## ✨ Features
+## Features
 
-- 🛍️ Browse clothing products
-- 🔍 Product cards with image, price, and category
-- ❤️ Add or remove items from wishlist
-- 📂 Create multiple wishlists
-- 🔀 Merge two wishlists into one
-- 💾 Persistent wishlist storage using Local Storage
-- 📱 Fully responsive design
-- ⚡ Fast and lightweight
+- **Product Catalog** - Browse 8 curated fashion items with filters, search, and sort
+- **Wishlist Management** - Add/remove items with animated heart button
+- **Wishlist Merging** - Export your list and import another user's list to combine them
+- **Real E-Commerce Details** - Star ratings, reviews, bestseller indicators, stock levels, color swatches, size options
+- **Professional Design** - Luxury minimalist aesthetic with navy sidebar navigation
+- **Responsive Layout** - Works on desktop and mobile devices
+- **No Backend** - All data stored locally in browser (localStorage)
 
----
+## Live Demo
 
-## 🛠️ Tech Stack
+Visit: [https://YOUR-USERNAME.github.io/wishlist-store/](https://YOUR-USERNAME.github.io/wishlist-store/)
+
+## Tech Stack
 
 - HTML5
-- CSS3
-- JavaScript (ES6)
-- Local Storage
+- CSS3 (Grid, Flexbox, Animations)
+- Vanilla JavaScript (ES6+)
+- localStorage API
+- Placeholder.com for product images
 
----
+## How to Use
 
-## 📁 Project Structure
+1. **Browse Products** - Scroll through the collection or use sidebar filters
+2. **Search** - Use the search box to find items
+3. **Add to Wishlist** - Click the heart button on any product
+4. **Export** - Click "Export" to get a shareable code
+5. **Import & Merge** - Click "Import" and paste a code to merge wishlists
+6. **View Wishlist** - See all saved items in the right sidebar
 
-```
-StyleHub/
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository
+## Local Setup
 
 ```bash
-git clone https://github.com/yourusername/stylehub.git
+git clone https://github.com/YOUR-USERNAME/wishlist-store.git
+cd wishlist-store
+# Open wishlist-store.html in your browser
 ```
 
-2. Open the project folder
+## Wishlist Merging
 
-```bash
-cd stylehub
-```
+- Each wishlist exports as an encoded string
+- Share this code with friends
+- They can paste it in the "Import & Merge" dialog
+- Duplicate items are automatically removed
+- Result combines both wishlists
 
-3. Launch `index.html` in your browser.
-
-No installation or additional dependencies are required.
-
----
-
-## ❤️ Wishlist Functionality
-
-Users can:
-
-- Create multiple wishlists
-- Add or remove products
-- Persist wishlists across browser sessions
-- Merge two existing wishlists into a single wishlist while avoiding duplicate products
-
-### Merge Logic
-
-- Combines products from both wishlists
-- Removes duplicate items using product IDs
-- Preserves all unique products in the merged wishlist
-
----
-
-## 📸 Screenshots
-
-- Home Page
-- Product Grid
-- Wishlist Panel
-- Merge Wishlist Interface
-
-*(Add screenshots here after deployment.)*
-
----
-
-## 🎯 Future Improvements
-
-- User authentication
-- Product search and filtering
-- Shopping cart
-- Product details page
-- Dark mode
-- Backend database integration
-- Cloud wishlist synchronization
-
----
-
-## 📄 License
-
-This project is created for educational and assessment purposes.
-
----
-
-## 👩‍💻 Author
-
-**Hema Keerthika**
-
-- GitHub: https://github.com/yourusername
+## Project Structure
