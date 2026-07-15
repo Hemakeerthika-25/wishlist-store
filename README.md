@@ -14,7 +14,7 @@ A luxury minimalist e-commerce wishlist web application built with vanilla HTML,
 
 ## Live Demo
 
-Visit: [https://YOUR-USERNAME.github.io/wishlist-store/](https://YOUR-USERNAME.github.io/wishlist-store/)
+Visit: [https://Hemakeerthika-25.github.io/wishlist-store/](https://Hemakeerthika-25.github.io/wishlist-store/)
 
 ## Tech Stack
 
