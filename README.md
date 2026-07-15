@@ -50,3 +50,8 @@ cd wishlist-store
 - Result combines both wishlists
 
 ## Project Structure
+wishlist-store/
+├── wishlist-store.html (complete app)
+├── v1-spec.md
+|___transcript.txt
+└── README.md
